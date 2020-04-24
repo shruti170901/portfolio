@@ -19,11 +19,7 @@ html {
 @keyframes para {
     100% {
         background-position: 
-            -5000px 20%,
-            -800px 95%,
-            500px 50%,
-            1000px 100%,
-            400px 0;
+            -5000px 20%;
         }
     }
 
@@ -37,55 +33,49 @@ body {
 	width: 960px; margin: 0 auto;
 }
 
-#logo {
-	margin: 10px auto 0 auto; position: relative; width: 183px;
 }
-ul#nav {
+#nav {
 	width: 940px; list-style: none;  margin: -134px auto 25px auto;
 }
-	ul#nav li {
+	#nav li {
 		width: 126px; height: 33px; float: left; padding: 13px 0 0 0;
-		background: url(images/nav-bg.png);
 		font-weight: bold; text-align: center; text-transform: uppercase;
 	}
-		ul#nav li:nth-child(1) {
+		#nav li:nth-child(1) {
 			margin: 0 60px 0 0;
 		}
-		ul#nav li:nth-child(2) {
+		#nav li:nth-child(2) {
 			margin: 0 316px 0 0;
 		}
-		ul#nav li:nth-child(3) {
+		#nav li:nth-child(3) {
 			margin: 0 60px 0 0;
 		}
-		ul#nav li:nth-child(4) {
+		#nav li:nth-child(4) {
 			margin: 0;
 		}
 
-		ul#nav li a {
+		#nav li a {
 			color: #616369; text-decoration: none;
 		}
-			ul#nav li a:hover {
+			#nav li a:hover {
 				color: #a12121;
 			}
 #header {
 	height: 244px; padding: 52px 0 0 57px;
-	background: url(images/home-header.jpg);
 }
 
 	#header h1 {
-		font: 38px Georgia, Serif; color: #f2f0eb; letter-spacing: 2px; margin: 0 0 20px 0;
+		font: 38px Georgia, Serif; color: black; letter-spacing: 2px; margin: 0 0 20px 0;
 		text-shadow: 0px 3px 3px #494949;
 	}
 	#header h2 {
-		width: 510px; font: 30px Georgia, Serif; color: #f2f0eb; letter-spacing: 2px; margin: 0 0 20px 0;
+		width: 510px; font: 30px Georgia, Serif; color:black; letter-spacing: 2px; margin: 0 0 20px 0;
 		text-shadow: 0px 3px 3px #494949;
 	}
 	#header p.btn a {
-		display: block; width: 225px; height: 50px; overflow: hidden;
-		background: url(images/home-header-btn.jpg); text-indent: -9999px;
+		display: block; width: 225px; height: 50px; overflow: hidden; text-indent: -9999px;
 	}
 #content {
-	background: url(images/content-bg.png) repeat-y;
 	padding: 57px 69px 50px 69px; overflow: hidden;
 }
 	#content h2 {
