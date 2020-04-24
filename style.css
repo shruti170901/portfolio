@@ -55,7 +55,7 @@ body {
 	margin: 10px auto 0 auto; position: relative; width: 183px;
 }
 ul#nav {
-	width: 940px; list-style: none; overflow: hidden; margin: -134px auto 25px auto;
+	width: 940px; list-style: none;  margin: -134px auto 25px auto;
 }
 	ul#nav li {
 		width: 126px; height: 33px; float: left; padding: 13px 0 0 0;
